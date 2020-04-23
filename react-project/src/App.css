@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Homepage-container{
+  width: 100%;
+  text-align: center;
+}
+
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
